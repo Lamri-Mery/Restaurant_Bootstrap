@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Contact</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="libraries/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/styles.css">
+
+	</head>
+	<body>
+		<div class="container-fluid">
+			<header>
+				<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+					<!-- debut taille -->
+						<p class="d-none d-lg-block">
+							large <br>
+							≥1200px<br>
+							lg
+						</p>
+						<p class="d-none d-md-block d-lg-none">
+							Medium <br>
+							≥992px<br>
+							md
+						</p>
+						<p class="d-none d-sm-block d-md-none">
+							Medium <br>
+							≥768px<br>
+							md
+						</p>
+						<p class="d-block d-sm-none">
+							Small <br>
+							≥576px<br>
+							sm
+						</p>
+					<!-- fin de taille -->
+					<div class="monLogo">
+						<img src="assets/img/logo.png" alt="">
+					</div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="accueil.html">Accueil<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="carte.html">Carte</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="photos.html">Photos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="restaurant.html">Restaurant</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<div class="container">
+				<form class= "my-contact" action="" method="POST" role="form">
+					<legend>Contact</legend>
+
+					<div class="form-group">
+						<label for="myName">Nom</label>
+						<input type="text" class="form-control" id="myName" placeholder="Nom">
+					</div>
+					<div class="form-group">
+						<label for="myFirstName">Prénom</label>
+						<input type="text" class="form-control" id="myFirstName" placeholder="Prénom">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Adresse email</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					</div>
+   					<div class="form-group">
+						<label for="mySelect">Objet:</label>
+						<select class="form-control" id="mySelect">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="comment">Comment:</label>
+						<textarea class="form-control" rows="5" id="comment"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Envoyer</button>
+				</form>
+			</div>
+		</div>
+			<footer>
+			<!-- Copyright -->
+			<p>&copy; 2018 Lamri Mery</p>
+			</footer>
+	</body>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="libraries/jquery-3.3.1.min.js"></script>
+		<script src="libraries/popper.min.js"></script>
+		<script src="libraries/bootstrap.min.js"></script>
+</html>

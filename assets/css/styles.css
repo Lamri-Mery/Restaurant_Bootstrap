@@ -1,0 +1,133 @@
+/*Général*/
+.container-fluid:first-child {
+    margin-top: 150px;
+}
+.container-fluid{
+    padding: 0;
+}
+.h1, h1 {
+    font-size: 1.5rem;
+}
+
+body {
+        font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+      }
+
+
+/*Logo*/
+.monLogo > img {
+    max-width: 60px;
+    margin: 0 50px 0 30px;
+}
+
+
+/*Menu*/
+nav.navbar.fixed-top.navbar-expand-md.navbar-light.bg-light a, footer > p {
+    color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    font-weight: bold!important;
+}
+.bg-light, footer {
+    background-color: #000033!important;
+}
+
+
+/*Accueil*/
+.card {
+    margin-bottom: 50px;
+    height: 200px;
+}
+
+.jumbotron {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    background-image: url(../img/17164.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.2em 0.2em 0.2em;
+}
+.jumbotron > *  {
+    color: #fff;
+}
+
+
+/*Carte*/
+ul#test {
+    width: 100%;
+}
+
+li.list-group-item.border-success{
+    border: 1px solid #ced4da!important;
+}
+
+
+/*Photos*/
+.list-img{
+    max-height: 450px;
+    overflow: hidden;
+    max-width: 800px;
+}
+
+.img-thumbnail {
+    border: none;
+    max-width: 90%;
+}
+a.page-link {
+    color: #000033;
+}
+.page-item.active .page-link {
+    background-color: #000033;
+    border-color: #000033;
+}
+
+.page-link {
+    border: none;
+}
+
+
+/*Contact*/
+form.my-contact {
+    width: 60%;
+    margin: auto;
+}
+
+button.btn.btn-primary {
+    background-color: #000033;
+    border-color: #000033;
+}
+
+
+/*Restaurant*/
+.table td, .table th {
+    padding: 0 20px;
+}
+table.table.table-striped {
+    width: 90%;
+    margin: 50px auto;
+}
+.adress{
+    margin-top: 50px;
+}
+iframe{
+    min-height: 300px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+.grey-back > *{
+    background-color: rgba(0,0,0,.05);
+}
+
+
+
+/*footer*/
+footer > p {
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
